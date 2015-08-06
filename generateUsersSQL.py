@@ -6,7 +6,7 @@ import untangle
 import os
 
 # Replace with the actual file path
-usersXMLfilePath = "E:\Temp\coffee.stackexchange.com\Users.xml"
+usersXMLfilePath = "Users.xml"
 
 user_insertStmt = "insert into stackexchangedd.users(Id,CreationDate," + \
                   "DisplayName,DownVotes,LastAccessDate,Reputation,UpVotes,Views,AccountId) " + \
